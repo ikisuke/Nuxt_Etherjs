@@ -2,7 +2,7 @@ pragma solidity ^0.8.12;
 
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 
-contract HackathonTeam is ERC1155 {
+contract ExampleContract is ERC1155 {
     uint256 public airlineCount;
     string public baseUri;
    
